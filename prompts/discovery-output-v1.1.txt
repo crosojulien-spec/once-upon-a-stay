@@ -1,0 +1,20 @@
+OUTPUT CONTRACT
+Return the required JSON. Copy source references only from the allowed USER message IDs in this input; the response schema restricts references to those IDs. Only reply is shown to the guest. Choose the actual conversational reply first in light of the host role, and maintain faithful internal state. No hidden reasoning essay.
+
+facts is the consolidated collection of explicit USER facts, with the supporting user's sourceMessageId and exact sourceQuote. Keep relevant previous facts, individual attribution, meaningful wording and conditions; replace corrections and remove duplicates. Do not turn host suggestions or interpretations into guest facts.
+
+discovery.threads holds up to 12 significant personal threads and useful follow-up leads. Keep person, topic, status, detail and 1-4 USER sourceMessageIds. Status open means a worthwhile lead remains, not that a question is compulsory. Preserve refusals and uncertainty. The full transcript is always available, so do not distort information to fit the map.
+
+discovery.coverage must contain EVERY provided domain on EVERY turn, including those not yet discussed. Coverage describes evidence so far, not the answer you hope to get to your new question:
+- unexplored: not yet explored; detail may name the useful opening. No invented guest evidence.
+- open: partly explored but a meaningful piece is still missing. Name it, e.g. food tastes known, drink preference still open. References may be empty before the first answer.
+- understood: enough specific material for this domain in this stay; cite supporting USER messages. Merely mentioning 'food' or 'comfort' is not sufficient understanding.
+- indifferent: the guest explicitly has no preference; cite their answer. This is not inferred from silence.
+- declined: the guest declined this subject; cite their answer and do not reopen it.
+- unknown: the speaker says they do not know, including another person's preference. Cite the answer; do not send them to interview an absent companion.
+- not_relevant: a genuinely inapplicable domain in this context, or a capability clearly absent from this hotel's DNA. Explain briefly. Missing data, short answers or your wish to finish are NOT irrelevance. Guest evidence should be cited where relevant; a DNA-only reason may have no user reference.
+For mixed domains such as food_and_drink or scents_and_flowers, do not mark the whole domain understood after only one part unless the other part is already resolved or genuinely inapplicable; explain that distinction. A single guest answer may resolve several domains naturally. Coverage is not a fixed order or a demand to ask every sub-question. Hotel availability, stock, permission, staffing and pricing are operational checks for the hotel: they do not keep guest discovery open once the guest need is sufficiently understood. Flexible or undecided timing is a valid answer, not a demand for a specific time. Keep detail fields as complete short sentences; summarise rather than cutting a sentence at the character limit.
+
+discovery.nextMove describes THIS reply: answer, clarify, deepen, include, bridge, closing_invitation, close or withdraw. focus is a short topic label, never a personality score or an essay.
+discovery.closing.basis is continue for active discovery; sufficient for a host-initiated ending with all relevant domains resolved; guest_finished for an expressed wish to finish; guest_short_on_time for stated time constraints; guest_disengaging for contextual evidence that the person no longer wants to continue. State the short reason. Cite USER messages for any guest-led shortening. Short factual answers alone are not evidence of disengagement.
+Before selecting sufficient, check for unexplored/open domains that would still help while the guest participates. Resolve them through the conversation, not by relabelling missing knowledge. The application checks this declared coverage before suggesting completion. The guest can still finish at any time. stopRequested is only explicit withdrawal of personalisation, not ordinary completion.

@@ -1,0 +1,192 @@
+{
+  "repository": "https://github.com/crosojulien-spec/canopia",
+  "commit": "4b843bb52b96c43155a2991d04dd868d1a895ca4",
+  "preparedOn": "2026-10-07",
+  "purpose": "Selected Canopia baseline. Hashes identify upstream files before hackathon adaptations; this is not an inventory of the final repository.",
+  "copiedFiles": [
+    {
+      "path": "client/api.ts",
+      "sourceSha256": "fb244bee7a8b122d65ea2f1049deeb1a027e0afb8c7a5445754175a46c3e924a"
+    },
+    {
+      "path": "client/App.tsx",
+      "sourceSha256": "0d6b91b03a8d1999258241b92d22657739e4e2a7f0128334f8527967cda02efb"
+    },
+    {
+      "path": "client/DnaReview.tsx",
+      "sourceSha256": "18d6ad7ccba2741e1ae61bd2b6fcf3e89759e6e4a63f4ff12ef15f4b6cbf1d9b"
+    },
+    {
+      "path": "client/Guest.tsx",
+      "sourceSha256": "b4c3cc2e3799ba8838050de45d95148fb171dcb247df97a479a8d2ba5f4db560"
+    },
+    {
+      "path": "client/main.tsx",
+      "sourceSha256": "6cbf32e5dd4efb807b04f3fd79c196e84e1e46ed152a4d7279439276ef525826"
+    },
+    {
+      "path": "client/StayWorkspace.tsx",
+      "sourceSha256": "2cf96611c05bbd4ce6f0a0480b8b9347de27c5f5d8040d0ba2163ec838f35708"
+    },
+    {
+      "path": "client/styles.css",
+      "sourceSha256": "d3639cb6d9acef26dbaba3c900a80b8f3b19ceba414d3a615c40e334940406af"
+    },
+    {
+      "path": "server/ai-budget.ts",
+      "sourceSha256": "9fe387a3625ba9512aa3701ab912e28de3a02b599bf97c6beb1caccbf701467a"
+    },
+    {
+      "path": "server/ai.ts",
+      "sourceSha256": "2869bbea2f837a5bfdc100a1382fa2a0c2f4f4a01c5f1ece5bf9c30c7c4c4a72"
+    },
+    {
+      "path": "server/app.ts",
+      "sourceSha256": "5a4963130e8ee13193c5131aa7f5ce9fc826bf814e389391fe06a6a63576424d"
+    },
+    {
+      "path": "server/config.ts",
+      "sourceSha256": "912f2c383fed100093ef13ba13296186f4f6df6e34d5238ca5a7304b6794922a"
+    },
+    {
+      "path": "server/db.ts",
+      "sourceSha256": "011a8594745b596ea07a9f4aeefe066bf252e86f9967a3f5b158e901957ceb7e"
+    },
+    {
+      "path": "server/discovery.ts",
+      "sourceSha256": "11d06ae6a82253bb636acf778fd6b8959e6d87b47ffc13c2c8e6906b6f1bdee0"
+    },
+    {
+      "path": "server/hotel-profiles.ts",
+      "sourceSha256": "8b98a3225de40f4ae0f2d72ba2910dd70b62131a389828ca8bc1be7c04331aa5"
+    },
+    {
+      "path": "server/index.ts",
+      "sourceSha256": "6f66fd767912cc203974484cd1bc16663384c247cdb9127921015350e3c791da"
+    },
+    {
+      "path": "server/security.ts",
+      "sourceSha256": "b21778450d731113fcc48eb565c077c513a735a6a248dca9efdb1a8112c98638"
+    },
+    {
+      "path": "server/seed.ts",
+      "sourceSha256": "3e7b8f4687509a86acd52a0b6bda71f430e513fcc7f231c4b22037c3ea8ba55e"
+    },
+    {
+      "path": "server/service.ts",
+      "sourceSha256": "ee71f1c44ef0ad08ef13de73c8bec640dbf288bd11ecf735c7d709c18b9f7343"
+    },
+    {
+      "path": "shared/types.ts",
+      "sourceSha256": "cd3a2806a0078ccdaa70ca57536b46fc849f81647615cb14a19adb114be5814a"
+    },
+    {
+      "path": "data/hotel_selection.json",
+      "sourceSha256": "981ef6524d11b4f453ad4f99d9181b70cae33921d5e6e2e5e7df5d14e775d13a"
+    },
+    {
+      "path": "data/dna/Golden Well.md",
+      "sourceSha256": "cf089a27c12f0cef5c257fd865006a699222940143e865bbc20bb4bb96e02f0b"
+    },
+    {
+      "path": "data/dna/Hotel Amour Nice.md",
+      "sourceSha256": "d9040c9476697fb7cc40ec87b802f2bbdcd93299b0abd535d7e348772db6376c"
+    },
+    {
+      "path": "data/dna/Kings Court.md",
+      "sourceSha256": "c9e064b731c4a556cf6f1f1eceea6ebe22c33c496e2d5b8ad50cb2b0a87fbd07"
+    },
+    {
+      "path": "data/dna/Pavillon de la Reine.md",
+      "sourceSha256": "3054eff854141c0a5437b55560e09e14e4723aee1505336bd35ed3846b3171a1"
+    },
+    {
+      "path": "data/dna/release.json",
+      "sourceSha256": "ef427e9a0715597ba66b8ffda6067093134cc0951f85371ca8afb4d86bbfa246"
+    },
+    {
+      "path": "data/dna/Review guide.md",
+      "sourceSha256": "f33f30125062113ed41bba83e43082a46c4b17da18de5ea1b7d44122c7bcd750"
+    },
+    {
+      "path": "data/dna/Seven Secrets.md",
+      "sourceSha256": "7393b0f7b39ca68f57a067c58c9b055dc94b515c59e95a2b5939173892206f0c"
+    },
+    {
+      "path": "data/dna/Sukhothai Bangkok.md",
+      "sourceSha256": "608fc784ccd516476016c09714e9596e8f6a116863f6dbf9f74552c3ece742ef"
+    },
+    {
+      "path": "tests/ai-budget.test.ts",
+      "sourceSha256": "b5eed5922213505091cc4323619559d0242a388bd26bc2686287f40d757e84a8"
+    },
+    {
+      "path": "tests/discovery.test.ts",
+      "sourceSha256": "f63ca75d19e938c3494457d65d502425ab3337eb9417a714da704cad52f755b1"
+    },
+    {
+      "path": "tests/hotel-profiles.test.ts",
+      "sourceSha256": "948018be32bdbaac6f3c8ea2972af6dfe8582630e40ca5f42a70078793efd625"
+    },
+    {
+      "path": "tests/workflows.test.ts",
+      "sourceSha256": "00a4c15d9b3076b5da4eb6a6f8292443c551002d7d0607c3df25fbf2a3edd3dc"
+    },
+    {
+      "path": "tests/browser/journey.spec.ts",
+      "sourceSha256": "37c88174b5ff5fedfb4d507c9c50ea85ab9533376883dcf5dc103c6d07d73965"
+    },
+    {
+      "path": "package.json",
+      "sourceSha256": "f5d9ecac5a128929b7beb8815fcdda7e03b2f8c86eca71d0efe1e7224c888251"
+    },
+    {
+      "path": "package-lock.json",
+      "sourceSha256": "b82c0eb1b6582e51edb9249e8ba85d14ad1dc1a3b38fe68a4d9f24153b9a14a0"
+    },
+    {
+      "path": "tsconfig.json",
+      "sourceSha256": "2e369738c2225ef70e7a115243fad208e84f1e1c1f1406ab6e2364eb45eee462"
+    },
+    {
+      "path": "vite.config.ts",
+      "sourceSha256": "c688bbccbb01af74f753931f0d63a4b4d5acc46dd8ba370018b3bd74e0f9a14f"
+    },
+    {
+      "path": "index.html",
+      "sourceSha256": "21443c1deccc73f12d7b189ac3a302c11a4833665549d8569c86956ccbaf4e46"
+    },
+    {
+      "path": ".gitignore",
+      "sourceSha256": "312863b65e01aef35f77daacbe766792fdac9dffeaa393a2e1ae30642721eeca"
+    },
+    {
+      "path": ".gitattributes",
+      "sourceSha256": "ea196037a1c77eebad9382f8a5a0bf273c042cbeff4672ad83e86234853c0cd8"
+    },
+    {
+      "path": ".prettierrc.json",
+      "sourceSha256": "7c51d9691a2c0e596709038190d47bf636d5727d0054fcc3f752c81e9c606e7a"
+    },
+    {
+      "path": "prompts/conversation-v5.1.txt",
+      "sourceSha256": "3dbec47597f878743b2ea5906f9669887d4a15918063aa6782cf9cf282f3741a"
+    },
+    {
+      "path": "prompts/brief-v4.2.txt",
+      "sourceSha256": "fc6bbb628146c8eab81c30776e11945d36a85901b90ac8911afc46d6bad283eb"
+    },
+    {
+      "path": "prompts/discovery-output-v1.1.txt",
+      "sourceSha256": "0bfbd72177a172511d81e261d5cbfd97dab87a60e80922118b6f5d0a08e21247"
+    },
+    {
+      "path": "prompts/discovery-examples-v1.1.txt",
+      "sourceSha256": "1291ae0bc88991ade93a6f8503d5d6c3e222259ce7f3ffc432e0077aa0f037f3"
+    },
+    {
+      "path": "docs/Conversation agent role.md",
+      "sourceSha256": "06568d2ac5ea1725aed84b2a70262440f79aee37023aca4589dd99b19a6c7d82"
+    }
+  ]
+}

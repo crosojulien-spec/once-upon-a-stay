@@ -1,0 +1,21 @@
+HOST: Hello Sam! I'd love to get to know you a little before your stay at The Sukhothai Bangkok, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?
+
+GUEST: Solo for work, two nights. I have about a minute before a meeting, so let's keep this practical.
+
+HOST: Understood—I’ll keep it practical. What’s your usual morning coffee or tea order?
+
+GUEST: A double espresso before my early run, then a banana and plain yoghurt. I leave for work around seven-thirty.
+
+HOST: That’s a useful early-start picture. Any allergies or dietary restrictions the team should keep in mind for breakfast?
+
+GUEST: No allergies or dietary restrictions.
+
+HOST: Thanks—that helps. One practical room detail: is there anything that reliably helps you sleep well before an early run, such as quiet, darkness or a particular pillow?
+
+GUEST: A quiet room around twenty degrees and a firm pillow. Please no added fragrance.
+
+HOST: A quiet room, firm pillow, around 20°C and no added fragrance—understood. One quick practical question: after your run, would you welcome a snack beyond the banana and plain yoghurt, or is that exactly what you want?
+
+GUEST: Banana and yoghurt are enough. I need to go now, thanks.
+
+HOST: Of course, Sam—good luck with your meeting. Thank you, and I hope your stay goes smoothly.

@@ -1,0 +1,42 @@
+{
+  "release": "2026-10-05-research-1",
+  "checkedAt": "2026-10-05",
+  "profiles": {
+    "seven_secrets_lombok": {
+      "file": "data/dna/Seven Secrets.md",
+      "previousUnreviewedHashes": [
+        "076d216cb88eb82aef81798e39cecf72e728ef79165bf6d3b384d0f6491d9115"
+      ]
+    },
+    "sukhothai_bangkok": {
+      "file": "data/dna/Sukhothai Bangkok.md",
+      "previousUnreviewedHashes": [
+        "93e77f164d17118f9cf30ec93d88426b1519742b6bb777f29b1b26a3324794d4"
+      ]
+    },
+    "kings_court_prague": {
+      "file": "data/dna/Kings Court.md",
+      "previousUnreviewedHashes": [
+        "642aa1b73c52656b314f0d39da72d1ca4affcf5594280e018f6f585d69ae8e82"
+      ]
+    },
+    "golden_well_prague": {
+      "file": "data/dna/Golden Well.md",
+      "previousUnreviewedHashes": [
+        "65eecf3f847355d75455e2a328bcf1fc3f46371895d0929df915592dc62b8bdd"
+      ]
+    },
+    "pavillon_reine_paris": {
+      "file": "data/dna/Pavillon de la Reine.md",
+      "previousUnreviewedHashes": [
+        "9644483324001b1cb4c999e826c1cab0c82fb6bd038ce5bfd6a097fd31f645e9"
+      ]
+    },
+    "hotel_amour_nice": {
+      "file": "data/dna/Hotel Amour Nice.md",
+      "previousUnreviewedHashes": [
+        "3620ea31d2e55f9b29e6f0c721eeadad7d88760f6eea5434b1f77d72667cc545"
+      ]
+    }
+  }
+}

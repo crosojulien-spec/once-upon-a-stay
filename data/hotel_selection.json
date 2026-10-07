@@ -1,0 +1,94 @@
+{
+  "as_of": "2026-10-05",
+  "count": 6,
+  "status": "selected_hotels_not_validated_operational_profiles",
+  "hotels": [
+    {
+      "id": "seven_secrets_lombok",
+      "name": "Seven Secrets by Hanging Gardens",
+      "city": "Lombok",
+      "country": "Indonesia",
+      "knowledge_status": "enriched_public_preparation_operator_review_pending",
+      "official_url": "https://www.sevensecretsresorts.com/",
+      "research_starting_points": [
+        "https://www.sevensecretsresorts.com/activities",
+        "https://sevensecretsresorts.com/accommodations",
+        "https://www.sevensecretsresorts.com/offers"
+      ],
+      "note": "Standardised public-source DNA researched 2026-10-05. Source status, historical conflicts, published prices and proposed compositions remain distinct; hotel operational confirmation pending.",
+      "preparation_file": "data/dna/Seven Secrets.md"
+    },
+    {
+      "id": "sukhothai_bangkok",
+      "name": "The Sukhothai Bangkok",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "knowledge_status": "enriched_public_preparation_operator_review_pending",
+      "official_url": "https://bangkok.sukhothai.com/",
+      "research_starting_points": [
+        "https://scadmin.hkri.com/en/Our-Businesses/Hotel-Operations-and-Leisure-Businesses/Thailand/The-Sukhothai-Bangkok"
+      ],
+      "note": "Standardised public-source DNA researched 2026-10-05. Source status, historical conflicts, published prices and proposed compositions remain distinct; hotel operational confirmation pending.",
+      "preparation_file": "data/dna/Sukhothai Bangkok.md"
+    },
+    {
+      "id": "kings_court_prague",
+      "name": "Hotel Kings Court",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "knowledge_status": "enriched_public_preparation_operator_review_pending",
+      "official_url": "https://www.hotelkingscourt.cz/",
+      "research_starting_points": [
+        "https://www.hotelkingscourt.cz/spa-in-prague",
+        "https://www.hotelkingscourt.cz/meetings-in-prague",
+        "https://www.hotelkingscourt.cz/restaurant",
+        "https://www.hotelkingscourt.cz/rooms-in-prague/executive-room-with-lounge-and-spa-access"
+      ],
+      "note": "Standardised public-source DNA researched 2026-10-05. Source status, historical conflicts, published prices and proposed compositions remain distinct; hotel operational confirmation pending.",
+      "preparation_file": "data/dna/Kings Court.md"
+    },
+    {
+      "id": "golden_well_prague",
+      "name": "Golden Well / U Zlate Studne",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "knowledge_status": "enriched_public_preparation_operator_review_pending",
+      "official_url": "https://www.goldenwell.cz/",
+      "research_starting_points": [
+        "https://www.goldenwell.cz/rooms-suites",
+        "https://www.goldenwell.cz/packages/discover-your-prague",
+        "https://www.terasauzlatestudne.cz/"
+      ],
+      "note": "Standardised public-source DNA researched 2026-10-05. Source status, historical conflicts, published prices and proposed compositions remain distinct; hotel operational confirmation pending.",
+      "preparation_file": "data/dna/Golden Well.md"
+    },
+    {
+      "id": "pavillon_reine_paris",
+      "name": "Le Pavillon de la Reine",
+      "city": "Paris",
+      "country": "France",
+      "knowledge_status": "enriched_public_preparation_operator_review_pending",
+      "official_url": "https://www.pavillon-de-la-reine.com/",
+      "research_starting_points": [
+        "https://www.pavillon-de-la-reine.com/spa",
+        "https://en.chevalier-paris.com/notre-histoire",
+        "https://uploads-ssl.webflow.com/61922acc89d695f4154d50a0/61fd55c657ab0d22d3de8344_FACT%20SHEET-PDLR-EN-WEB-V2.pdf"
+      ],
+      "note": "Standardised public-source DNA researched 2026-10-05. Source status, historical conflicts, published prices and proposed compositions remain distinct; hotel operational confirmation pending.",
+      "preparation_file": "data/dna/Pavillon de la Reine.md"
+    },
+    {
+      "id": "hotel_amour_nice",
+      "name": "Hotel Amour Nice",
+      "city": "Nice",
+      "country": "France",
+      "knowledge_status": "enriched_public_preparation_operator_review_pending",
+      "official_url": "https://hotelamourparis.fr/hotel-amour-nice/",
+      "research_starting_points": [
+        "https://hotelamourparis.fr/hotel-amour-plage/"
+      ],
+      "note": "Standardised public-source DNA researched 2026-10-05. Source status, historical conflicts, published prices and proposed compositions remain distinct; hotel operational confirmation pending.",
+      "preparation_file": "data/dna/Hotel Amour Nice.md"
+    }
+  ]
+}

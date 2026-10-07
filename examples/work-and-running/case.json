@@ -1,0 +1,456 @@
+{
+  "id": "work-and-running",
+  "title": "Work trip and morning running",
+  "provenance": {
+    "repository": "crosojulien-spec/canopia",
+    "commit": "4b843bb52b96c43155a2991d04dd868d1a895ca4",
+    "sourcePath": "fixtures/evaluations/2026-10-06 discovery v5 final briefs/03 Sam Patel.json",
+    "sourceSha256": "7769d6c67c792f551bda9c0200f891c691f05e1342bd417ef6eef31125a12c74",
+    "dnaPath": "fixtures/evaluations/2026-10-06 discovery v5/03 hotel snapshot.json",
+    "recordedOn": "2026-10-06",
+    "status": "Recorded AI outputs from fictional tests; not hotel approval",
+    "limitations": "The guest was short on time; the conversation still asked an extra snack question. Running interests do not establish a real online identity."
+  },
+  "input": {
+    "stay": {
+      "id": "801c27d4-d7ac-4874-8fc8-549edf4bb432",
+      "demo": true,
+      "email": "",
+      "facts": [
+        {
+          "label": "Stay purpose and party",
+          "value": "Travelling solo for work for two nights.",
+          "sourceQuote": "Solo for work, two nights.",
+          "sourceMessageId": "c9514625-a44a-4416-ac1e-69da18044f37"
+        },
+        {
+          "label": "Time constraint and preference",
+          "value": "Has about a minute before a meeting and wants to keep the exchange practical; then said they needed to go.",
+          "sourceQuote": "Solo for work, two nights. I have about a minute before a meeting, so let's keep this practical.",
+          "sourceMessageId": "c9514625-a44a-4416-ac1e-69da18044f37"
+        },
+        {
+          "label": "Morning routine and timing",
+          "value": "Has a double espresso before an early run, then a banana and plain yoghurt; leaves for work around seven-thirty.",
+          "sourceQuote": "A double espresso before my early run, then a banana and plain yoghurt. I leave for work around seven-thirty.",
+          "sourceMessageId": "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+        },
+        {
+          "label": "Dietary requirements",
+          "value": "No allergies or dietary restrictions.",
+          "sourceQuote": "No allergies or dietary restrictions.",
+          "sourceMessageId": "31b32523-84dd-4075-a9c3-a349baeb6e93"
+        },
+        {
+          "label": "Sleep and room comfort",
+          "value": "Prefers a quiet room around twenty degrees and a firm pillow; requests no added fragrance.",
+          "sourceQuote": "A quiet room around twenty degrees and a firm pillow. Please no added fragrance.",
+          "sourceMessageId": "88e1e1f7-9835-4b4a-881b-94f0b71c6e03"
+        },
+        {
+          "label": "Post-run snack preference",
+          "value": "Banana and yoghurt are enough; does not want an additional snack.",
+          "sourceQuote": "Banana and yoghurt are enough. I need to go now, thanks.",
+          "sourceMessageId": "b96518e2-3c57-41a9-87af-9d4fe14d83b0"
+        }
+      ],
+      "status": "completed",
+      "arrival": "2026-11-24",
+      "handoff": "concierge",
+      "hotelId": "sukhothai_bangkok",
+      "revoked": false,
+      "revision": 18,
+      "chatError": null,
+      "createdAt": "2026-10-06T12:44:43.908Z",
+      "departure": "2026-11-26",
+      "discovery": {
+        "focus": "Close for time",
+        "closing": {
+          "basis": "guest_short_on_time",
+          "reason": "Sam said they need to go now after mentioning a meeting and wanting to keep the exchange practical.",
+          "sourceMessageIds": [
+            "c9514625-a44a-4416-ac1e-69da18044f37",
+            "b96518e2-3c57-41a9-87af-9d4fe14d83b0"
+          ]
+        },
+        "threads": [
+          {
+            "topic": "Work stay and timing",
+            "detail": "Travelling solo for two nights for work; has an early run and leaves around 7:30. Other plans are unknown.",
+            "person": "Sam",
+            "status": "open",
+            "sourceMessageIds": [
+              "c9514625-a44a-4416-ac1e-69da18044f37",
+              "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+            ]
+          },
+          {
+            "topic": "Early-run morning routine",
+            "detail": "Double espresso before an early run, then banana and plain yoghurt; leaves for work around 7:30.",
+            "person": "Sam",
+            "status": "understood",
+            "sourceMessageIds": [
+              "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+            ]
+          },
+          {
+            "topic": "Post-run snack",
+            "detail": "Banana and plain yoghurt are enough; no additional snack is wanted.",
+            "person": "Sam",
+            "status": "understood",
+            "sourceMessageIds": [
+              "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57",
+              "b96518e2-3c57-41a9-87af-9d4fe14d83b0"
+            ]
+          },
+          {
+            "topic": "Dietary requirements",
+            "detail": "No allergies or dietary restrictions.",
+            "person": "Sam",
+            "status": "understood",
+            "sourceMessageIds": [
+              "31b32523-84dd-4075-a9c3-a349baeb6e93"
+            ]
+          },
+          {
+            "topic": "Room comfort and fragrance",
+            "detail": "Prefers a quiet room around twenty degrees and a firm pillow; requests no added fragrance.",
+            "person": "Sam",
+            "status": "understood",
+            "sourceMessageIds": [
+              "88e1e1f7-9835-4b4a-881b-94f0b71c6e03"
+            ]
+          }
+        ],
+        "coverage": {
+          "snacks": {
+            "detail": "Banana and plain yoghurt after the run are enough; no additional snack is wanted.",
+            "status": "understood",
+            "sourceMessageIds": [
+              "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57",
+              "b96518e2-3c57-41a9-87af-9d4fe14d83b0"
+            ]
+          },
+          "routines": {
+            "detail": "Has a double espresso before an early run, then a banana and plain yoghurt; leaves for work around 7:30.",
+            "status": "understood",
+            "sourceMessageIds": [
+              "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+            ]
+          },
+          "interests": {
+            "detail": "Personal interests have not been explored.",
+            "status": "unexplored",
+            "sourceMessageIds": []
+          },
+          "interaction": {
+            "detail": "Preferred style of interaction with hotel staff has not been explored.",
+            "status": "unexplored",
+            "sourceMessageIds": []
+          },
+          "food_and_drink": {
+            "detail": "Has a double espresso before a run, followed by banana and plain yoghurt; other food and drink preferences remain unknown.",
+            "status": "open",
+            "sourceMessageIds": [
+              "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+            ]
+          },
+          "plans_and_pace": {
+            "detail": "Has an early run and leaves for work around 7:30; other plans and timings are unknown.",
+            "status": "open",
+            "sourceMessageIds": [
+              "c9514625-a44a-4416-ac1e-69da18044f37",
+              "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57"
+            ]
+          },
+          "personal_touches": {
+            "detail": "No occasion or personal-touch preference has been shared.",
+            "status": "unexplored",
+            "sourceMessageIds": []
+          },
+          "sleep_and_comfort": {
+            "detail": "Prefers a quiet room around twenty degrees and a firm pillow; requests no added fragrance.",
+            "status": "understood",
+            "sourceMessageIds": [
+              "88e1e1f7-9835-4b4a-881b-94f0b71c6e03"
+            ]
+          },
+          "people_and_purpose": {
+            "detail": "Travelling solo for work for two nights.",
+            "status": "understood",
+            "sourceMessageIds": [
+              "c9514625-a44a-4416-ac1e-69da18044f37"
+            ]
+          },
+          "scents_and_flowers": {
+            "detail": "Requests no added fragrance; flower preferences have not been explored.",
+            "status": "open",
+            "sourceMessageIds": [
+              "88e1e1f7-9835-4b4a-881b-94f0b71c6e03"
+            ]
+          },
+          "dietary_requirements": {
+            "detail": "Sam reports no allergies or dietary restrictions.",
+            "status": "understood",
+            "sourceMessageIds": [
+              "31b32523-84dd-4075-a9c3-a349baeb6e93"
+            ]
+          }
+        },
+        "nextMove": "close"
+      },
+      "expiresAt": "2026-10-13T12:44:43.908Z",
+      "guestName": "Sam Patel",
+      "hotelName": "The Sukhothai Bangkok",
+      "partySize": 1,
+      "updatedAt": "2026-10-06T13:27:42.979Z",
+      "briefError": null,
+      "dnaVersion": 2,
+      "briefStatus": "ready",
+      "readyToFinish": false,
+      "selectedBriefId": "f6d2793f-e4f1-472c-b16e-a9b2b265697e",
+      "reservationNotes": "Fictional discovery evaluation, 6 October 2026."
+    },
+    "messages": [
+      {
+        "id": "28fc92da-fbab-49e6-857c-9f26e1cbc4cc",
+        "role": "assistant",
+        "content": "Hello Sam! I'd love to get to know you a little before your stay at The Sukhothai Bangkok, so the team can think about the details that matter to you. This chat is optional; you can skip a question or finish whenever you like. What brings you here this time?",
+        "createdAt": "2026-10-06T12:44:43.908Z"
+      },
+      {
+        "id": "c9514625-a44a-4416-ac1e-69da18044f37",
+        "role": "user",
+        "content": "Solo for work, two nights. I have about a minute before a meeting, so let's keep this practical.",
+        "createdAt": "2026-10-06T12:44:45.174Z"
+      },
+      {
+        "id": "7700640d-de17-4902-ac14-4718eb30f55b",
+        "role": "assistant",
+        "content": "Understood—I’ll keep it practical. What’s your usual morning coffee or tea order?",
+        "createdAt": "2026-10-06T12:44:56.813Z"
+      },
+      {
+        "id": "1534d8f4-8e3d-4fea-a8dc-30bfd7511f57",
+        "role": "user",
+        "content": "A double espresso before my early run, then a banana and plain yoghurt. I leave for work around seven-thirty.",
+        "createdAt": "2026-10-06T12:46:08.861Z"
+      },
+      {
+        "id": "d455e77e-5ac6-4449-aba5-230d00d93d44",
+        "role": "assistant",
+        "content": "That’s a useful early-start picture. Any allergies or dietary restrictions the team should keep in mind for breakfast?",
+        "createdAt": "2026-10-06T12:46:25.109Z"
+      },
+      {
+        "id": "31b32523-84dd-4075-a9c3-a349baeb6e93",
+        "role": "user",
+        "content": "No allergies or dietary restrictions.",
+        "createdAt": "2026-10-06T12:47:57.173Z"
+      },
+      {
+        "id": "1e845d83-d45d-4eaa-857f-1ceb00628269",
+        "role": "assistant",
+        "content": "Thanks—that helps. One practical room detail: is there anything that reliably helps you sleep well before an early run, such as quiet, darkness or a particular pillow?",
+        "createdAt": "2026-10-06T12:48:13.027Z"
+      },
+      {
+        "id": "88e1e1f7-9835-4b4a-881b-94f0b71c6e03",
+        "role": "user",
+        "content": "A quiet room around twenty degrees and a firm pillow. Please no added fragrance.",
+        "createdAt": "2026-10-06T12:49:50.463Z"
+      },
+      {
+        "id": "983126b2-cd84-48c0-b682-5ad71b4d08bf",
+        "role": "assistant",
+        "content": "A quiet room, firm pillow, around 20°C and no added fragrance—understood. One quick practical question: after your run, would you welcome a snack beyond the banana and plain yoghurt, or is that exactly what you want?",
+        "createdAt": "2026-10-06T12:50:11.058Z"
+      },
+      {
+        "id": "b96518e2-3c57-41a9-87af-9d4fe14d83b0",
+        "role": "user",
+        "content": "Banana and yoghurt are enough. I need to go now, thanks.",
+        "createdAt": "2026-10-06T12:51:31.485Z"
+      },
+      {
+        "id": "d226169a-a114-4ec5-99ab-d51c83819c15",
+        "role": "assistant",
+        "content": "Of course, Sam—good luck with your meeting. Thank you, and I hope your stay goes smoothly.",
+        "createdAt": "2026-10-06T12:51:47.516Z"
+      }
+    ],
+    "hotel": {
+      "id": "sukhothai_bangkok",
+      "dna": "# The Sukhothai Bangkok — service DNA\n\n## 1. Review status and use\n\nResearch checked: 5 October 2026. Public preparation; operator review pending; no operational hotel confirmation. The new spa PDF is dated 1 October 2026. Other documents retain their dates. Prices are references; “++” here means the source adds 10% service charge and applicable government tax, not an invented fixed all-in rate.\n\nHistorical reference: references/knowledge/sukhothai_hotel_input_2_0.txt. It supports continuity but is superseded where current sources contradict it. Examples illustrate composition rather than an exhaustive catalogue.\n\n## 2. Identity and service interpretation\n\nThai architectural references, gardens, courtyards and lotus ponds coexist with destination dining, wellness, fitness and substantial event capability. [S01, S05, S16–S19, S21]\n\nInterpretation: the hotel can support calm and privacy without being limited to passive stays. The current spa includes private boxing, training and yoga; events include large functions. Historical descriptions that excluded sport or substantial gatherings were too categorical. Ask what energy and interaction the guest wants.\n\n## 3. Spaces, teams and working capabilities\n\n| Resource | Published capability | Boundary / owner |\n|---|---|---|\n| Celadon | Thai kitchen, lotus-pond setting, vegetarian section, spice adjustment described | Restaurant; dress code, dinner hours and recipe confirmation [S05–S07] |\n| La Scala | Italian/Mediterranean kitchen, open kitchen/pool terrace, lunch/dinner | Restaurant; separate Saturday format and menu [S10, S11, S23] |\n| Zuk Bar | Drinks, light food, courtyard seating and private cocktail functions | Bar/events; 17:00–00:00, subject to programme [S09] |\n| Thimian | Bakery/cakes/coffee, small indoor/outdoor seating | Outlet; published 08:00–17:00, pop-up location also mentioned [S14] |\n| Pool terrace | Light food/bar service, water/cold towels | Published café hours 06:00–20:00 are not proven pool opening hours [S15] |\n| Club Lounge | Breakfast, tea/canapés, soft drinks, limited meeting/laundry benefits | Entitled categories only; not all hotel guests [S04] |\n| Spa/fitness | Custom treatments, training, boxing, yoga, heat facilities | Spa/fitness staff; age, suitability, reservation and fees [S17–S19] |\n| Events | Ballroom/meeting/outdoor spaces, catering, florist, AV/IT | Events manager; layout-specific capacity/quote [S21] |\n\nOperational routing should name concierge/reception, F&B outlet, housekeeping or spa as appropriate. Spa publishes thesukhothaispa@sukhothai.com. No named employee is assumed to remain the current handoff owner.\n\n## 4. Rooms, sleep and practical comfort\n\nThe renovated Main Wing Deluxe page describes teak, 300-thread-count cotton, Jim Thompson furnishings, room controls and bathroom amenities; connection to a Deluxe Suite is possible, not guaranteed. Room wing/category matters: do not merge renovated Main Wing and Club Wing specifications. [S02]\n\nClub Lounge is published 06:30–22:00. Benefits include soft drinks, wake-up tea/coffee in room, two laundry pieces per stay, and a six-person meeting room for two hours per stay with reservation/availability. Breakfast 06:30–10:30 weekdays, until 11:00 weekends; afternoon tea 14:00–16:00; cocktails/canapés 17:30–19:30. Verify eligibility against booking. [S04]\n\nA pillow menu appears in an OTA listing, but no current primary list of fillings or firmness was located. Older herbal/brand-specific pillow claims are not reused. Quiet location, hypoallergenic bedding, cot/connection/accessibility and scent-free preparation require room-specific confirmation. [S03]\n\n## 5. Food and drink resources\n\nCeladon dinner: 17:00–23:00, last order 22:00; scheduled traditional performances at 19:30 and 20:30 mean silence is not guaranteed. Dress restrictions are published. Its chef discussion explicitly supports adjusting spice levels, but allergy handling and substitutions remain kitchen decisions. [S05, S06]\n\n| Celadon anchor | Published THB face price | Resource / limit |\n|---|---:|---|\n| Chicken satay | 420 | Peanut and pineapple/vinegar accompaniments |\n| Pomelo/prawn salad | 550 | Tamarind/coconut and shellfish |\n| Chicken coconut soup | 420 | Coconut/lime profile |\n| Duck red curry | 700 | Lychee/basil; not a generic vegetarian curry |\n| Vegetarian mushroom dumplings | 400 | Dedicated vegetarian section |\n| Vegetarian coconut soup / tofu curry | 350 / 400 | Separate recipes, not automatic removal of meat |\n| Vegetarian pad Thai | 450 | Confirm egg/nut/allergen details |\n| Mango/sticky rice / roselle or pineapple sorbet | 500 / 200 | Dessert and fruit preparation |\n\nPrices from [S06]; confirm tax/service application on this à-la-carte version before quoting an all-in amount. Some vegetable dishes outside the vegetarian section contain oyster sauce or shrimp paste. Menu labels do not establish vegan preparation or allergy safety.\n\nCommon beverage list: signature cocktails THB 410++; juice THB 300++ (orange, watermelon, apple, pineapple, young coconut and fresh lime soda); lotus teas/infusions THB 300++; hot coffee THB 200++, iced THB 250++. Recipes show lemongrass, ginger, kaffir lime, chilli, fresh mango and mint. A coconut liqueur is not coconut juice; some cocktails use egg white. [S08]\n\nSpa drinks use a separate list: tea/mocktails THB 290++, juice THB 230++; lotus-tea mixtures include lychee/lime or mango/passion/yuzu. Prices and stock must remain tied to the outlet. [S20]\n\nIn-room breakfast runs 05:00–11:30: continental THB 900++, American 1,300++, Thai congee 400++; fruit/vegetable juice 300++ includes carrot, celery, beetroot and ginger. Soya and almond milk appear at breakfast. Main à-la-carte service is 11:30–22:00; pasta, Thai dishes, Indian food and vegetarian-labelled options are present. “Vegetarian burger” includes cheese. These are useful kitchen resources, not proof of a 24-hour full menu or unrestricted substitutions. [S22]\n\nLa Scala's linked July 2026 à-la-carte document confirms a distinct menu; use the restaurant for Italian requests rather than attributing every in-room pasta to that outlet. A complete custom meal or allergy-safe menu requires its kitchen's agreement. [S10, S23]\n\n## 6. Wellness, activities and family resources\n\nA 25-metre saltwater pool and gardens are published; fitness hours are 06:00–22:00 with steam/sauna/jacuzzi facilities. Spa opens 09:00–22:00. [S16–S18]\n\n| October 2026 spa resource | THB price, plus service/tax | Time / basis |\n|---|---:|---|\n| Individual elemental treatment | 6,000++ | 110 minutes including 20-minute consultation |\n| Thai or aromatherapy massage | 4,000 / 5,000 / 6,000++ | 60 / 90 / 120 minutes |\n| Targeted massage | 2,200 / 2,900 / 3,500++ | 30 / 45 / 60 minutes |\n| Moroccan / Turkish hammam | 5,500++ | 75 / 60 minutes |\n| Moringa facial | 4,000++ | 60 minutes |\n| Biologique Recherche facial | 6,500 single / 12,000 couple ++ | 60 minutes |\n| Training, private boxing or private yoga | 1,800++ | 60 minutes, up to two people |\n| Assisted stretching | 1,000++ | 30 minutes, one person |\n| Manicure / pedicure | 1,500 / 1,800++ | 60 minutes |\n\nAll from [S19]. Pressure, oils and activity pace can be personalised by professionals. Minimum age 12 for spa/health club/wellness centre; arrive 15 minutes early. Cancellation policy requests 24-hour notice but specifies 50% within four hours and full no-show charge: clarify the intermediate window. Medical/pregnancy suitability belongs to the therapist; do not collect a diagnostic history in the conversation.\n\n## 7. Packages, extras and price conditions\n\n| Published offer | Reference price | Boundaries |\n|---|---:|---|\n| Celadon family-sharing menu | THB 1,600++/person | Minimum two; current-linked 2025 document, contains seafood/meat [S07] |\n| Saturday Italian lunch | THB 2,200++/person | Soft drinks/coffee/tea; selected calendar/service format [S11] |\n| Sunday brunch | THB 3,900++/person | Soft drinks/coffee/tea; dated Sunday calendar; not every date assumed [S12] |\n| Chocolate buffet | THB 1,800++/person | Saturday 14:00–17:00; drinks as specified, chocolate preparation and savoury food [S13] |\n| Meeting formats | THB 2,000++ full day, 1,800++ half day, 1,200++ coffee-break format | Minimum ten participants or room fee; verify charging unit, inclusions and date [S21] |\n\nThe chocolate offer describes customised hot/cold chocolate preparation, giving a real basis for taste-led questions, not a complimentary room-delivery promise. [S13]\n\nColonnade page says service will resume while the brunch offer provides a dated calendar. Resolve the intended date/venue with staff. Meeting page also mixes overall capacity figures of 300/400 and a 350-person cocktail table; use the specific layout confirmed by events, not the largest number. [S12, S21, S24]\n\n## 8. Composition possibilities — proposals for staff\n\n| Volunteered guest cue | Known resources | Possible composition | Owner and checks |\n|---|---|---|---|\n| Likes ginger/lime, avoids alcohol and sugary drinks | Ginger/lime, juice, lotus tea and bar technique [S08, S20, S22] | Ask for a less sweet ginger–lime or tea-based welcome drink | Concierge + relevant bar: venue stock, recipe, timing, cross-outlet access and charge |\n| Enjoys Thai food but avoids intense chilli | Celadon spice adaptation and vegetarian recipes [S05, S06] | A milder kitchen-selected Thai sequence around liked ingredients | Restaurant: spice versus allergy distinction, sauces, cross-contact, availability and price |\n| Wants an active morning without a packed itinerary | Private boxing/yoga, pool, breakfast [S16, S19, S22] | One appropriately paced session followed by breakfast/free time | Spa + F&B: ability/suitability, age, slot, duration, food timing and charges |\n| Has a short confidential working session | Entitled Club meeting room and wake-up drinks [S04] | Coordinate the included room window and refreshments | Concierge/Club team: entitlement, room availability, equipment, privacy and any extra cost |\n| Food-focused celebration without alcohol | Chocolate preparation, pastry, Thai/Italian kitchens and soft drinks [S08, S13, S14] | Ask about a suitable food-led attention or sequence | F&B: actual date, dietary needs, off-schedule feasibility, setting and quote |\n| Wants recovery but dislikes oil or strong fragrance | Oil-free Thai technique, adapted spa work [S19] | Therapist-led choice of technique and quieter timing | Spa: suitability, pressure, products, slot and price; do not promise a clinical benefit |\n\nAny other combination may be explored from documented capabilities. A menu ingredient does not establish free access to another outlet's stock. No invented package price or guest-facing promise.\n\n## 9. Conversation and brief handoff\n\nUse purpose, energy, tastes and relevant practical needs. Avoid framing every guest as seeking silence or spiritual wellness. Do not recommend treatments based on inferred medical conditions. Ideas go to concierge/reception for coordination, with the actual outlet/team and conditions named. Preserve the booked wing/category and entitled benefits. A refusal of personalisation suppresses all experience suggestions.\n\n## 10. Review queue and evidence conflicts\n\nConfirm live menus, tax handling, brunch/Colonnade reopening, meeting layout/capacity and quoted billing basis. Obtain primary pillow list, room accessibility/connection/cot details, housekeeping permissions, adaptation budgets, allergy procedures and current handoff owners. Clarify spa cancellation and any family-access differences. Historical staff, partner lists and blanket “no sport/no events” rules are not current facts. No hotel contact or live booking was made.\n\n## 11. Source register\n\nAll checked on 2026-10-05; sources public unless marked reported. URL document dates indicate editions, not guaranteed stock.\n\n- S01 | public | [Hotel](https://bangkok.sukhothai.com/en/) | Current property.\n- S02 | public | [Main Wing Deluxe](https://bangkok.sukhothai.com/en/luxurious-accommodations-in-bangkok/the-main-wing/deluxe-room/) | Renovated category.\n- S03 | reported | [OTA amenities](https://www.hotels.com/ho127957/the-sukhothai-bangkok-bangkok-thailand/) | Pillow-menu lead; exact range unconfirmed.\n- S04 | public | [Club Lounge](https://bangkok.sukhothai.com/en/luxurious-accommodations-in-bangkok/the-sukhothai-club-wing/club-lounge/) | Entitlement and benefit limits.\n- S05 | public | [Celadon](https://bangkok.sukhothai.com/en/dining/celadon/) | Venue/hours.\n- S06 | public | [Celadon menu](https://bangkok.sukhothai.com/file/webpage/shared/dining/menus/20260522-celadon-menu-v2.pdf) | May 2026; 73 pages.\n- S07 | public | [Celadon sharing menu](https://bangkok.sukhothai.com/file/webpage/shared/dining/menus/20251008-celadon-family-sharing-menu.pdf) | October 2025; current-linked.\n- S08 | public | [Beverage menu](https://bangkok.sukhothai.com/file/webpage/shared/dining/menus/20260506-beverage-menu.pdf) | May 2026; 8 pages.\n- S09 | public | [Zuk Bar](https://bangkok.sukhothai.com/en/dining/the-zuk-bar/) | Venue and functions.\n- S10 | public | [La Scala](https://bangkok.sukhothai.com/en/dining/la-scala-italian-cuisine/) | Italian kitchen.\n- S11 | public | [Saturday Italian lunch](https://bangkok.sukhothai.com/en/exclusive-offers/sabato-italiano-saturday-lunch/) | Dated offer/calendar.\n- S12 | public | [Sunday brunch](https://bangkok.sukhothai.com/en/exclusive-offers/legendary-sunday-brunch/) | Dated offer/calendar.\n- S13 | public | [Chocolate buffet](https://bangkok.sukhothai.com/en/exclusive-offers/chocolate-buffet/) | Saturday format.\n- S14 | public | [Thimian](https://bangkok.sukhothai.com/en/dining/thimian/) | Bakery; location to confirm.\n- S15 | public | [Pool café/bar](https://bangkok.sukhothai.com/en/dining/pool-terrace-cafe-and-bar/) | Café hours.\n- S16 | public | [Pool](https://bangkok.sukhothai.com/en/well-being-in-bangkok/swimming-pool/) | Pool resource.\n- S17 | public | [Fitness](https://bangkok.sukhothai.com/en/well-being-in-bangkok/fitness-studio/) | Fitness and coaching.\n- S18 | public | [Spa](https://bangkok.sukhothai.com/en/well-being-in-bangkok/sukhothai-spa-in-bangkok/) | Spa/contact.\n- S19 | public | [Spa menu](https://bangkok.sukhothai.com/file/webpage/shared/wellness/20261001-the-sukhothai-spa-menu.pdf) | 1 October 2026; 25 pages.\n- S20 | public | [Spa drinks](https://bangkok.sukhothai.com/file/webpage/page/public/p32/en/32/20240924-drink-menu-for-spa.pdf) | September 2024, still linked; separate venue prices.\n- S21 | public | [Meetings](https://bangkok.sukhothai.com/en/events/meeting-venues-in-bangkok/) | Conflicting capacities retained.\n- S22 | public | [In-room dining](https://bangkok.sukhothai.com/file/webpage/shared/dining/menus/20260522-tsb-in-room-dining-menu-compressed.pdf) | May 2026; 35 pages.\n- S23 | public | [La Scala à-la-carte](https://bangkok.sukhothai.com/file/webpage/shared/dining/menus/20260702-la-scala-a-la-carte-menu.pdf) | July 2026; 4 pages.\n- S24 | public | [Colonnade](https://bangkok.sukhothai.com/en/dining/colonnade/) | Reopening wording conflicts with dated brunch offer.\n",
+      "city": "Bangkok",
+      "name": "The Sukhothai Bangkok",
+      "country": "Thailand",
+      "sources": [
+        {
+          "url": "https://bangkok.sukhothai.com/en/",
+          "title": "S01 · Hotel — Current property.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/en/luxurious-accommodations-in-bangkok/the-main-wing/deluxe-room/",
+          "title": "S02 · Main Wing Deluxe — Renovated category.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://www.hotels.com/ho127957/the-sukhothai-bangkok-bangkok-thailand/",
+          "title": "S03 · OTA amenities — Pillow-menu lead; exact range unconfirmed.",
+          "status": "reported",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/en/luxurious-accommodations-in-bangkok/the-sukhothai-club-wing/club-lounge/",
+          "title": "S04 · Club Lounge — Entitlement and benefit limits.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/en/dining/celadon/",
+          "title": "S05 · Celadon — Venue/hours.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/file/webpage/shared/dining/menus/20260522-celadon-menu-v2.pdf",
+          "title": "S06 · Celadon menu — May 2026; 73 pages.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/file/webpage/shared/dining/menus/20251008-celadon-family-sharing-menu.pdf",
+          "title": "S07 · Celadon sharing menu — October 2025; current-linked.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/file/webpage/shared/dining/menus/20260506-beverage-menu.pdf",
+          "title": "S08 · Beverage menu — May 2026; 8 pages.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/en/dining/the-zuk-bar/",
+          "title": "S09 · Zuk Bar — Venue and functions.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/en/dining/la-scala-italian-cuisine/",
+          "title": "S10 · La Scala — Italian kitchen.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/en/exclusive-offers/sabato-italiano-saturday-lunch/",
+          "title": "S11 · Saturday Italian lunch — Dated offer/calendar.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/en/exclusive-offers/legendary-sunday-brunch/",
+          "title": "S12 · Sunday brunch — Dated offer/calendar.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/en/exclusive-offers/chocolate-buffet/",
+          "title": "S13 · Chocolate buffet — Saturday format.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/en/dining/thimian/",
+          "title": "S14 · Thimian — Bakery; location to confirm.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/en/dining/pool-terrace-cafe-and-bar/",
+          "title": "S15 · Pool café/bar — Café hours.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/en/well-being-in-bangkok/swimming-pool/",
+          "title": "S16 · Pool — Pool resource.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/en/well-being-in-bangkok/fitness-studio/",
+          "title": "S17 · Fitness — Fitness and coaching.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/en/well-being-in-bangkok/sukhothai-spa-in-bangkok/",
+          "title": "S18 · Spa — Spa/contact.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/file/webpage/shared/wellness/20261001-the-sukhothai-spa-menu.pdf",
+          "title": "S19 · Spa menu — 1 October 2026; 25 pages.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/file/webpage/page/public/p32/en/32/20240924-drink-menu-for-spa.pdf",
+          "title": "S20 · Spa drinks — September 2024, still linked; separate venue prices.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/en/events/meeting-venues-in-bangkok/",
+          "title": "S21 · Meetings — Conflicting capacities retained.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/file/webpage/shared/dining/menus/20260522-tsb-in-room-dining-menu-compressed.pdf",
+          "title": "S22 · In-room dining — May 2026; 35 pages.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/file/webpage/shared/dining/menus/20260702-la-scala-a-la-carte-menu.pdf",
+          "title": "S23 · La Scala à-la-carte — July 2026; 4 pages.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        },
+        {
+          "url": "https://bangkok.sukhothai.com/en/dining/colonnade/",
+          "title": "S24 · Colonnade — Reopening wording conflicts with dated brunch offer.",
+          "status": "public",
+          "checkedAt": "2026-10-05"
+        }
+      ],
+      "version": 2,
+      "reviewed": false,
+      "documents": [],
+      "conciergeStatus": "present",
+      "operationallyConfirmed": false
+    }
+  },
+  "baseline": {
+    "id": "f6d2793f-e4f1-472c-b16e-a9b2b265697e",
+    "kind": "normal",
+    "text": "A) BASIC INFO\n\nSam Patel; 24–26 November 2026, two nights, one guest. Travelling solo for work. Staff interaction preference was not established.\n\nB) COORDINATION\n\nConcierge is the assigned lead. This brief is based on public preparation only; operational details are not confirmed. Coordinate any room requests with reception/housekeeping and the morning routine proposal with the relevant food-and-beverage team. Confirm availability, timing and charges before offering or arranging anything.\n\nC) GUEST PROFILE\n\nSam’s early routine: double espresso before a run, then a banana and plain yoghurt; leaves for work around 7:30. The banana and yoghurt are enough—no additional snack wanted. No allergies or dietary restrictions.\n\nFor sleep, Sam prefers a quiet room around 20°C and a firm pillow, and requests no added fragrance.\n\nD) RECEPTION\n\nKeep any follow-up focused on the practical arrangements below; do not restart a general discovery conversation. If proposing the morning service, confirm the needed timings before accepting an order.\n\nE) ROOM PREPARATION\n\nReception/housekeeping: request a quiet room, temperature around 20°C if controllable, and a firm pillow. Avoid adding fragrance during room preparation. Confirm room-specific temperature and pillow options and the housekeeping approach; do not promise availability before checking.\n\nF) CONCIERGE — EXPERIENCE SUPPORT\n\nMorning routine — optional paid proposal for hotel approval: Offer to coordinate a double espresso before Sam’s run and a banana with plain yoghurt afterwards, using in-room breakfast if the kitchen can provide these items. Preserve the two separate moments and do not add a snack. Concierge to check with the kitchen whether the items and sequence can be accommodated, confirm the required times with Sam if they wish to proceed, and provide the applicable price before any order is accepted.",
+    "model": "gpt-6-luna",
+    "source": "openai",
+    "stayId": "801c27d4-d7ac-4874-8fc8-549edf4bb432",
+    "version": 3,
+    "revision": 1,
+    "createdAt": "2026-10-06T13:27:42.975Z",
+    "updatedAt": "2026-10-06T13:27:42.975Z",
+    "dnaVersion": 2,
+    "generatedText": "A) BASIC INFO\n\nSam Patel; 24–26 November 2026, two nights, one guest. Travelling solo for work. Staff interaction preference was not established.\n\nB) COORDINATION\n\nConcierge is the assigned lead. This brief is based on public preparation only; operational details are not confirmed. Coordinate any room requests with reception/housekeeping and the morning routine proposal with the relevant food-and-beverage team. Confirm availability, timing and charges before offering or arranging anything.\n\nC) GUEST PROFILE\n\nSam’s early routine: double espresso before a run, then a banana and plain yoghurt; leaves for work around 7:30. The banana and yoghurt are enough—no additional snack wanted. No allergies or dietary restrictions.\n\nFor sleep, Sam prefers a quiet room around 20°C and a firm pillow, and requests no added fragrance.\n\nD) RECEPTION\n\nKeep any follow-up focused on the practical arrangements below; do not restart a general discovery conversation. If proposing the morning service, confirm the needed timings before accepting an order.\n\nE) ROOM PREPARATION\n\nReception/housekeeping: request a quiet room, temperature around 20°C if controllable, and a firm pillow. Avoid adding fragrance during room preparation. Confirm room-specific temperature and pillow options and the housekeeping approach; do not promise availability before checking.\n\nF) CONCIERGE — EXPERIENCE SUPPORT\n\nMorning routine — optional paid proposal for hotel approval: Offer to coordinate a double espresso before Sam’s run and a banana with plain yoghurt afterwards, using in-room breakfast if the kitchen can provide these items. Preserve the two separate moments and do not add a snack. Concierge to check with the kitchen whether the items and sequence can be accommodated, confirm the required times with Sam if they wish to proceed, and provide the applicable price before any order is accepted.",
+    "promptVersion": "brief-v4.2"
+  }
+}
