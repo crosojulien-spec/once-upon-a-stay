@@ -6,6 +6,10 @@ Canopia turns a guest's pre-arrival conversation into a practical hotel brief, g
 
 The hotel keeps the final decision. No booking, purchase or guest offer is automated.
 
+Start with the [two-page process guide](docs/Canopia%20process%20and%20research%20agents.docx): before/after flows for both agents and five illustrative examples. The intended flow is guest discovery, Hotel DNA matching, optional enrichment, brief generation, human review and delivery to the hotel. Hotel teams then choose what they can carry out.
+
+The current Research lab is an experiment built around a saved brief. Moving the agents before brief generation, as shown in the process guide, remains implementation work. See [Integration](docs/Integration.md) for this distinction.
+
 ## Start in ten minutes
 
 Use Node.js **24.18+** and npm. From the repository root:

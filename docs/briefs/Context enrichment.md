@@ -1,6 +1,6 @@
 # Context enrichment
 
-Start with an interest voluntarily declared in the Canopia conversation. Research relevant public information about a verified test subject, then propose a small number of useful hotel-reviewed adaptations or experiences. The experiment should show what that evidence adds to conversation plus DNA alone.
+Start with an idea already developed from the guest conversation and Hotel DNA. Research a relevant detail about a reliably identified test subject to refine that idea before briefs are generated. The [approved process guide](../Canopia%20process%20and%20research%20agents.docx) includes running, reading and photography examples. The current Research lab runs after a saved brief for comparison; adapting that placement remains implementation work.
 
 An illustrative running case could connect a declared running interest with verified public evidence of usual distance, then suggest a suitable local route. This is a concept, not a claim that the fictional running example has an online activity profile.
 

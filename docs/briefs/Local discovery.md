@@ -1,6 +1,6 @@
 # Local experience discovery
 
-Find activities, exhibitions, tours or venues for the stay dates, guided by the guest's interests, pace and constraints. Return two or three sourced options that the hotel can assess and combine with its own transport, dining, guidance or personal touches.
+Use guest discovery, Hotel DNA, destination, stay dates and constraints to find concrete local activities, exhibitions, tours or venues. Build two or three sourced options or packs by combining those experiences with relevant hotel services before briefs are generated. Reception or concierge should have enough practical information to organise and book them. The [approved process guide](../Canopia%20process%20and%20research%20agents.docx) illustrates the flow. The current Research lab runs after a saved brief for comparison; adapting that placement remains implementation work.
 
 For one city and fixed dates, collect the exact venue/location, relevant slot, duration, travel requirements, language/accessibility constraints, booking URL or contact, price/currency/basis, inclusions and cancellation terms. Record the source and check time. Advertised availability and supplier-confirmed availability are different states; unknowns remain visible.
 

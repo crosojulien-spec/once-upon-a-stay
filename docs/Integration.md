@@ -1,6 +1,12 @@
 # Research integration
 
-The workflow is implemented around a saved brief, not inside the guest conversation. It preserves a useful baseline and allows either extension to fail or abstain without losing the brief.
+## Intended product flow
+
+The approved [process guide](Canopia%20process%20and%20research%20agents.docx) places both optional agents after discovery has been matched with Hotel DNA and before briefs are generated. Context enrichment refines an existing idea; local discovery builds practical local options and combines them with hotel services. Contributions are brought together for brief generation, human review and delivery to the hotel. Hotel teams then choose what they can carry out, without a required hotel approval or guest preselection step.
+
+## Current experiment
+
+The workflow currently implemented in Research lab operates around a saved brief. It preserves a useful baseline and allows either extension to fail or abstain without losing the brief. Moving research before brief generation and adapting inputs and composition to that flow remain implementation work. The following steps describe the existing experiment.
 
 1. Complete a fictional conversation, or load a recorded example.
 2. Select and save the baseline brief.
